@@ -1,0 +1,427 @@
+
+body{
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0 auto;
+    padding: 0px;
+    direction: ltr;
+    width: 100%;
+    height:auto;
+    min-height: 100px;
+    box-sizing: border-box;
+    
+
+}     
+
+.container{
+    width: 1100px;
+    margin: 0 auto;
+
+}
+
+.violetBox{
+    width: 100% ;
+    height: 400px;
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-right: 80px; 
+    background: #87509C; 
+    box-sizing: border-box;
+}
+.violetBox nav{
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+.clear{
+
+    clear: both;
+}
+.logo{
+    float: left;
+    width: 50%;
+}
+.menu{
+    float: right;
+    width: 50%;
+}
+.menu ul li {
+    list-style-type:none;
+    margin-left: 20px;
+    display: inline-block
+    
+}
+
+.menu ul li a{
+    color: #fcf8f8;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+.menu ul{
+    text-align: right;
+}
+.menu ul li a:hover{
+    text-decoration: underline;
+}
+.menu ul li:first-child{
+    margin-left: 0px;
+}
+
+.violetBody p{
+    color: #fcf8f8;
+    text-align: center;
+    padding: 50px;
+    font-size: 25px;
+}
+ .button{
+     background-color: rgb(245, 125, 70);
+     width: 200px;
+     height:50px ;
+     border-width: 2px;
+     box-shadow: inset -2px -3px rgb(235, 105, 44);
+     border-radius: 5px;
+     margin: 0 auto;
+ }
+ .button a{
+     text-decoration: none;
+     line-height: 50px;
+     color: #fcf8f8;
+     margin-left: 40px; 
+     
+
+ }
+ .greenBox{
+     width: 100%;
+     height: auto;
+     background: #17C2A4;
+     color: #fcf8f8;
+    padding-top: 85px;
+    box-sizing: border-box;
+ }
+ .greenBox h1{
+     text-align: center;
+     font-size: 40px;
+     text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 0px;
+    
+ }
+ .greenBox p{
+    font-size: 18px;
+    margin-bottom: 68px;
+    text-align: center;
+    
+    }
+.greenBox .images{
+    display: block;
+    width: 100%;
+    height: auto;
+   
+}
+
+.greenBox .picture{
+    width: 25%;
+    float: left;
+    text-align: center;
+    padding-left:10px;
+    box-sizing: border-box;
+
+
+}
+.greenBox .picture:first-child{
+    padding-left: 0px
+}
+
+.greenBox .picture img{
+    text-align: center;
+    width: 68%;
+}
+.greenBox .picture h2{
+    font-size:24px;
+    text-transform: uppercase;
+}
+.greenBox .picture p{
+    font-size: 16px;
+}
+.grayBox{
+    width: 100%;
+    height: auto;
+    background: #e7f1f8;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box; 
+
+}
+.grayBox h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size:24px;
+    color: #3c4761;
+}
+
+.grayBox p{
+    font-size: 13px;
+    color: #3c4761;
+    text-align: center;
+}
+.character{
+    display: block;
+    width: 100%;
+    height:auto;
+}
+.teamMember{
+    width: 25%;
+    float: left;
+    text-align: center;
+    padding-left:10px;
+    box-sizing: border-box;
+    
+}
+.teamMember img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #878787;
+    margin:0 auto;
+
+}
+.teamMember span{
+    color: #30bae7;
+    font-size: 13px;
+    
+}
+.teamMember h4{
+    font-size:24px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+.teamMember p {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.social{
+    width: 100%;
+    height: auto;
+}
+.social a{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #bdd1df;
+    color: white;
+    line-height: 30px;
+    transition-duration: 0.4s;
+    margin-left: 5px;
+}
+.social a:first-child{
+    margin-left: 0px}
+.social a:hover{
+    transition-duration: 0.4s;
+}
+.social a.fb:hover{
+    background: #3b5998;
+}
+.social a.tw:hover{
+    background: #00aced;
+}
+.social a.linked:hover{
+    background:#0077b5;
+}
+.social a.mail:hover{
+    background: #87509c;
+}
+.orangeBox{   
+    width: 100%;
+    height: auto;
+    background: #FFDD99;
+    padding: 20px;
+    box-sizing: border-box; 
+    
+
+}
+.orangeBox h2{
+  text-transform: uppercase;
+  text-align: center;
+  color: #393939;
+  font-size: 40px;
+}
+.orangeBox p{
+    margin-bottom:30px;
+  text-align: center;
+  font-size: 18px;
+  color: #393939;
+}
+.rowOne,
+.rowTwo{
+    width: 100%;
+    height: auto;
+    
+}
+.screen{
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding-left:10px;
+    box-sizing: border-box;
+    
+}
+.screen img{
+    width:90%;
+    margin: 15px 0px 0px 0px;
+}
+.screen span{
+    text-align: center;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.orangeBox a{
+    text-align: center;
+    text-decoration: none;
+    width: 170px;
+    height: 50px;
+    background: #17C2A4;
+    color: white; 
+    line-height:50px;
+    display: inline-block;
+    font-size: 13px;
+    margin: 50px 45% ;
+    text-transform: uppercase;
+    box-shadow: rgb(13, 173, 144) 0px 3px
+}
+.pinkBox{
+    width: 100%;
+    height: auto;
+    background: #D74680;
+    text-align: center;
+    color: white;
+    
+}
+.pinkBox h2{
+    margin: 0px;
+    padding:60px 0 30px 0;
+    box-sizing:border-box; 
+
+}
+.pinkBox span{
+    font-size: 12px;
+}
+
+.gridSection{
+    float: left;
+    height: auto;
+    width:50%;
+    margin-bottom: 50px;
+}
+.gridIcon{
+    float: left;
+    height:96px;
+    width: 96px;
+    text-align: center;
+    border-radius: 50%;
+    background: #878787;
+    
+}
+.gridDesc{
+    float: right;
+    height: auto;
+    width:calc(100% - 96px);
+    padding-left: 30px;
+    box-sizing: border-box;
+    text-align: left;
+}
+.gridDesc h5{
+    margin:0px;
+    font-size: 18px;
+    color: #d6d6d6;
+}
+.gridDesc p{
+    color: #e8e8e8;
+    font-size: 16px;
+}
+p.pStyle {
+    margin: 0;
+    font-size: 12px;
+    color: #ffaf4c;
+}
+.blueBox{
+    background: #3C54A3;
+    width: 100%;
+    height: auto;
+    color: white;
+    text-align: center;
+}
+.blueBox h2{
+    margin-top: 0px;
+    padding-top: 50px;
+    box-sizing: border-box;
+    font-size: 35px;
+}
+.blueBox p{
+    text-align: center;
+    font-size: 12px;
+    padding:0 40px; 
+    color: #EEE;
+}
+.inputText{
+    width: 334px;
+    height: 10px;
+    display: inline-block;
+    margin-right: 30px;
+    background: #273a71;
+    border: none;
+    padding:15px;
+    border-radius: 4px;
+    margin-top: 40px;
+    
+}
+.inputText::placeholder{
+    color: white;
+}
+textarea{
+    display: block;
+    background-color: #273a71;
+    color:#FFF;
+    border-radius: 4px;
+    padding: 13px;
+    border:0;
+    width: 67%;
+    margin-top: 8px;
+    margin-bottom:40px;
+    height: 184px;
+    margin-left:152px;
+}
+textarea::placeholder{
+    color:white;
+}
+.inputSubmit{
+    background: #17C2A4;
+    color: white;
+    border: none;
+    box-shadow: inset -2px -3px rgb(17, 156, 131) ;
+    width: 140px;
+    height: 40px;
+    line-height:40px;
+    border-radius: 5px;
+}
+.inputSubmit:hover{
+    background: rgb(12, 143, 119)
+}
+.footer{
+    width: 100%;
+    height:auto;
+    background: #273a71;
+    text-align: center;
+    padding : 30px 0 30px 0;
+
+}
+.socialicon{
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 55px;
+}
